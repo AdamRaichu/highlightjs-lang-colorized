@@ -5,42 +5,31 @@
 */
 
 module.exports = function (hljs) {
-  var selector_node = {
-    className: "lang-selector",
-    begin: "§(?=[0-9a-gk-or]{1})",
-    end: "(?<=§)[0-9a-gk-or]{1}",
-  };
   var format_selectors = [
-    // selector_node,
     {
       className: "lang-format-k",
       begin: "§k",
       end: "(?=§[0-9a-fr])|(?!.)",
-      contains: [selector_node],
     },
     {
       className: "lang-format-l",
       begin: "§l",
       end: "(?=§[0-9a-fr])|(?!.)",
-      contains: [selector_node],
     },
     {
       className: "lang-format-m",
       begin: "§m",
       end: "(?=§[0-9a-fr])|(?!.)",
-      contains: [selector_node],
     },
     {
       className: "lang-format-n",
       begin: "§n",
       end: "(?=§[0-9a-fr])|(?!.)",
-      contains: [selector_node],
     },
     {
       className: "lang-format-o",
       begin: "§o",
       end: "(?=§[0-9a-fr])|(?!.)",
-      contains: [selector_node],
     },
   ];
   return {

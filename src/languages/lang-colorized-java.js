@@ -11,7 +11,7 @@ module.exports = function (hljs) {
     end: "(?<=§)[0-9a-gk-or]{1}",
   };
   var format_selectors = [
-    selector_node,
+    // selector_node,
     {
       className: "lang-format-k",
       begin: "§k",

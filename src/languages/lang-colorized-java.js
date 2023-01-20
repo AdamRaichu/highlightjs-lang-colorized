@@ -164,6 +164,6 @@ module.exports = function (hljs) {
         ],
       },
       hljs.COMMENT("#", "$"),
-    ],
+    ].concat(format_selectors),
   };
 };

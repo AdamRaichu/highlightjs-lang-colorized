@@ -161,9 +161,9 @@ module.exports = function (hljs) {
             contains: format_selectors,
           },
           // Java doesn't have §g
-        ],
+        ].concat(format_selectors),
       },
       hljs.COMMENT("#", "$"),
-    ].concat(format_selectors),
+    ],
   };
 };

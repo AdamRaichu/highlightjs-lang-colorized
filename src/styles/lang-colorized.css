@@ -1,31 +1,45 @@
+@font-face {
+  font-family: "Monocraft";
+  src: url(../../Monocraft.otf);
+}
+
+.hljs-lang-selector {
+  opacity: 50%;
+}
+
+.hljs-lang-java,
+.hljs-lang-bedrock {
+  font-family: "Monocraft";
+}
+
 .hljs-lang-format-0 {
   color: #000000;
-  text-shadow: 2px 1.5px #000000;
+  text-shadow: 1px 1px #000000;
 }
 
 .hljs-lang-format-1 {
   color: #0000aa;
-  text-shadow: 2px 1.5px #00002a;
+  text-shadow: 1px 1px #00002a;
 }
 
 .hljs-lang-format-2 {
   color: #00aa00;
-  text-shadow: 2px 1.5px #002a00;
+  text-shadow: 1px 1px #002a00;
 }
 
 .hljs-lang-format-3 {
   color: #00aaaa;
-  text-shadow: 2px 1.5px #002a2a;
+  text-shadow: 1px 1px #002a2a;
 }
 
 .hljs-lang-format-4 {
   color: #aa0000;
-  text-shadow: 2px 1.5px #2a0000;
+  text-shadow: 1px 1px #2a0000;
 }
 
 .hljs-lang-format-5 {
   color: #aa00aa;
-  text-shadow: 2px 1.5px #2a002a;
+  text-shadow: 1px 1px #2a002a;
 }
 
 .hljs-lang-format-6 {
@@ -33,61 +47,61 @@
 }
 
 .hljs-lang-java .hljs-lang-format-6 {
-  text-shadow: 2px 1.5px #2a2a00;
+  text-shadow: 1px 1px #2a2a00;
 }
 
 .hljs-lang-bedrock .hljs-lang-format-6 {
-  text-shadow: 2px 1.5px #402a00;
+  text-shadow: 1px 1px #402a00;
 }
 
 .hljs-lang-format-7 {
   color: #aaaaaa;
-  text-shadow: 2px 1.5px #2a2a2a;
+  text-shadow: 1px 1px #2a2a2a;
 }
 
 .hljs-lang-format-8 {
   color: #555555;
-  text-shadow: 2px 1.5px #151515;
+  text-shadow: 1px 1px #151515;
 }
 
 .hljs-lang-format-9 {
   color: #5555ff;
-  text-shadow: 2px 1.5px #15153f;
+  text-shadow: 1px 1px #15153f;
 }
 
 .hljs-lang-format-a {
   color: #55ff55;
-  text-shadow: 2px 1.5px #153f15;
+  text-shadow: 1px 1px #153f15;
 }
 
 .hljs-lang-format-b {
   color: #55ffff;
-  text-shadow: 2px 1.5px #153f3f;
+  text-shadow: 1px 1px #153f3f;
 }
 
 .hljs-lang-format-c {
   color: #ff5555;
-  text-shadow: 2px 1.5px #3f1515;
+  text-shadow: 1px 1px #3f1515;
 }
 
 .hljs-lang-format-d {
   color: #ff55ff;
-  text-shadow: 2px 1.5px #3f153f;
+  text-shadow: 1px 1px #3f153f;
 }
 
 .hljs-lang-format-e {
   color: #ffff55;
-  text-shadow: 2px 1.5px #3f3f15;
+  text-shadow: 1px 1px #3f3f15;
 }
 
 .hljs-lang-format-f {
   color: #ffffff;
-  text-shadow: 2px 1.5px #3f3f3f;
+  text-shadow: 1px 1px #3f3f3f;
 }
 
 .hljs-lang-bedrock .hljs-lang-format-g {
   color: #ddd605;
-  text-shadow: 2px 1.5px #373501;
+  text-shadow: 1px 1px #373501;
 }
 
 .hljs-lang-format-k {
@@ -117,7 +131,7 @@
 
 .hljs-lang-format-r {
   color: #ffffff;
-  text-shadow: 2px 1.5px #3f3f3f;
+  text-shadow: 1px 1px #3f3f3f;
   font-style: normal;
   text-decoration: none;
   font-weight: normal;

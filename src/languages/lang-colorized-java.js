@@ -32,6 +32,9 @@ module.exports = function (hljs) {
       end: "(?=§[0-9a-fr])|(?!.)",
     },
   ];
+  for (var i = 0; i < format_selectors.length; i++) {
+    format_selectors[i].contains = format_selectors;
+  }
   return {
     name: "lang-colorized-java",
     disableAutodetect: true,

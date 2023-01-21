@@ -3,10 +3,6 @@
   src: url(../../Monocraft.otf);
 }
 
-.hljs-lang-selector {
-  opacity: 50%;
-}
-
 .hljs-lang-java,
 .hljs-lang-bedrock {
   font-family: "Monocraft";

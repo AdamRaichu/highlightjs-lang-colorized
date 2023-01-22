@@ -2,8 +2,6 @@
 
 A highlight.js grammar and css ruleset which colorizes Minecraft's lang code such that the values match what it would look like in-game. Supports Java and Bedrock edition's different rendering rules.
 
-> **Note**: This repository is not done yet, but when it is this warning will be removed.
-
 ## Usage
 
 ### Browser
@@ -13,7 +11,7 @@ You will also need the base highlight.js library.
 
 ```html
 <script src="https://adamraichu.github.io/highlightjs-lang-colorized/dist/lang-colorized-java.min.js"></script>
-<script src="https://adamraichu.github.io/highlightjs-lang-colorized/dist/lang-colorized-bedrock.min.js"></script>
+<!-- Not YET COMPLETE <script src="https://adamraichu.github.io/highlightjs-lang-colorized/dist/lang-colorized-bedrock.min.js"></script> -->
 <!-- Note: If you only plan on highlighting one flavor of syntax, there is no need to include both here. -->
 <link rel="stylesheet" href="https://adamraichu.github.io/highlightjs-lang-colorized/src/styles/lang-colorized.css">
 ```
